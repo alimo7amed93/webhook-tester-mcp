@@ -17,7 +17,7 @@ Built with the FastMCP framework to expose modular tools and resources, this pro
 2. Install dependencies `pip install -r requirements.txt`
 3. Configure `.env`
 
-## 🧪 Testing Using Claude
+## 🔍 Testing Using Claude
 
 - Configure Claude Desktop to use the local server by editing your claude_desktop_config.json file:
 
@@ -31,6 +31,8 @@ Built with the FastMCP framework to expose modular tools and resources, this pro
     }
   } 
 ```
+
+## 🧪 Demo testing the Server
 
 ## 📄 License
 This project is licensed under the [MIT License](https://mit-license.org/).
