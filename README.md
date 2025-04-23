@@ -34,5 +34,7 @@ Built with the FastMCP framework to expose modular tools and resources, this pro
 
 ## 🧪 Demo testing the Server
 
+[![Watch the video](https://img.youtube.com/vi/nGRlQtRlDA4/hqdefault.jpg)](https://www.youtube.com/watch?v=nGRlQtRlDA4)
+
 ## 📄 License
 This project is licensed under the [MIT License](https://mit-license.org/).
