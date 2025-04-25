@@ -1,5 +1,7 @@
 # 🚀 Webhook Tester MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@alimo7amed93/webhook-tester-mcp)](https://smithery.ai/server/@alimo7amed93/webhook-tester-mcp)
+
 A powerful and modular FastMCP server for interacting with webhook-test.com, designed to automate and manage Webhook tokens (URLs), inspect incoming requests, and perform analytics — all without writing custom API integrations.
 
 Built with the FastMCP framework to expose modular tools and resources, this project enables webhook observability and management.
@@ -18,6 +20,15 @@ Webhooks let your app send and receive real-time updates between services. When 
 
 ## ⚙️ Setup
 
+### Installing via Smithery
+
+To install Webhook Tester for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@alimo7amed93/webhook-tester-mcp):
+
+```bash
+npx -y @smithery/cli install @alimo7amed93/webhook-tester-mcp --client claude
+```
+
+### Manual Installation
 1. Clone the repo
 2. Install dependencies `pip install -r requirements.txt`
 3. Configure `.env`
