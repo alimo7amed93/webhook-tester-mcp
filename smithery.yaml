@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - apiKey
+      - baseUrl
+    properties:
+      apiKey:
+        type: string
+        description: API key for webhook-test.com
+      baseUrl:
+        type: string
+        description: Base URL for webhook-test.com API
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['server.py'], env: { WEBHOOK_TESTER_API_KEY: config.apiKey, WEBHOOK_TESTER_BASE_URL: config.baseUrl } })
+  exampleConfig:
+    apiKey: your_dummy_api_key_here
+    baseUrl: https://webhook-test.com/api
