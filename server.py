@@ -12,7 +12,7 @@ mcp = FastMCP(
     )
 
 @mcp.resource("get_webhook_payloads/{webhook_id}")
-def get_webhook_payloads(webhook_id: int) -> dict:
+def get_webhook_payloads(webhook_id: str) -> dict:
     url = f"{BASE_URL}/webhooks/{webhook_id}"
     response = httpx.get(url, headers=HEADERS)
     response.raise_for_status()
@@ -40,14 +40,14 @@ def list_all_webhooks() -> dict:
     return response.json()
 
 @mcp.tool("get_webhook_details")
-def get_webhook_details(webhook_id: int) -> dict:
+def get_webhook_details(webhook_id: str) -> dict:
     url = f"{BASE_URL}/webhooks/{webhook_id}"
     response = httpx.get(url, headers=HEADERS)
     response.raise_for_status()
     return response.json()
 
 @mcp.tool("delete_webhook")
-def delete_webhook(webhook_id: int) -> dict:
+def delete_webhook(webhook_id: str) -> dict:
     url = f"{BASE_URL}/webhooks/{webhook_id}"
     response = httpx.delete(url, headers=HEADERS)
     response.raise_for_status()

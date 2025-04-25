@@ -4,12 +4,17 @@ A powerful and modular FastMCP server for interacting with webhook-test.com, des
 
 Built with the FastMCP framework to expose modular tools and resources, this project enables webhook observability, automated testing via Claude.
 
+## 🛎️ Webhooks 101
+
+Webhooks let your app talk to other services in real-time. Instead of constantly checking for updates (polling), a webhook sends an HTTP POST request to a URL you define whenever something happens — like a new user signup, a status change, or any event you care about. They're lightweight, fast, and super handy for triggering actions, syncing data, or keeping systems in the loop.
+
 ## 📦 Features & Use Cases
 
-- Create and manage webhooks
-- Fetch webhook payloads
-- Delete webhooks
-- Testable via Claude structured prompts
+✅ Create new webhooks
+✅ List all available webhooks
+✅ Fetch webhook's details
+✅ Fetch webhook payloads
+✅ Delete webhooks
 
 ## ⚙️ Setup
 
