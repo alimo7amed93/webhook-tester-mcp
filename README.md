@@ -2,7 +2,7 @@
 
 A powerful and modular FastMCP server for interacting with webhook-test.com, designed to automate and manage Webhook tokens (URLs), inspect incoming requests, and perform analytics — all without writing custom API integrations.
 
-Built with the FastMCP framework to expose modular tools and resources, this project enables webhook observability, automated testing via Claude.
+Built with the FastMCP framework to expose modular tools and resources, this project enables webhook observability and management.
 
 ## 🛎️ Webhooks 101
 
@@ -10,10 +10,10 @@ Webhooks let your app send and receive real-time updates between services. When 
 
 ## 📦 Features & Use Cases
 
-✅ Create new webhooks
-✅ List all available webhooks
-✅ Fetch webhook's details
-✅ Fetch webhook payloads
+✅ Create new webhooks\
+✅ List all available webhooks\
+✅ Fetch webhook's details\
+✅ Fetch webhook payloads\
 ✅ Delete webhooks
 
 ## ⚙️ Setup
