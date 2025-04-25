@@ -6,8 +6,6 @@ Built with the FastMCP framework to expose modular tools and resources, this pro
 
 ## 🛎️ Webhooks 101
 
-## 🛎️ Webhooks 101
-
 Webhooks let your app send and receive real-time updates between services. When sending, your app can POST data to a URL whenever something important happens — like a new user signup or a status change. When receiving, your app listens for incoming POST requests from other services and reacts to the events they send. This setup is way more efficient than constant polling and is perfect for triggering actions, syncing data, or keeping systems in sync.
 
 ## 📦 Features & Use Cases
